@@ -1,9 +1,20 @@
+
 <template>
   <v-app id="inspire">
       <RouterView />
+
+      <Footer></Footer>
   </v-app>
 </template>
 
-<script setup>
+<script>
+
+import Footer from '@/components/Footer.vue';
+
+export default {
+  components: {
+    Footer
+  },
+};
 
 </script>
